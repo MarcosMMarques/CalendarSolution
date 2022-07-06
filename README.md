@@ -1,1 +1,1 @@
-Trabalho acadêmico sobre um algoritmo em C# para se obter o calendário referente ao mes e ano que o usuário desse entrada, sendo válidos meses de 1 a 12 e anos de 1 a 9999.
+Academic work on an algorithm in C# to obtain the calendar referring to the month and year that the user entered, with valid months from 1 to 12 and years from 1 to 9999.
