@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,32 +8,32 @@ namespace Trab_de_ProgVis
     {
         static void Main()
         {
-        Calendario c = new Calendario();
+        Calendar c = new Calendar();
             do
             {
                 try
                 {
-                    Console.WriteLine("Escreva o mês desejado: ");
-                    c.mes = Convert.ToByte(Console.ReadLine());
+                    Console.WriteLine("Type the desired month: ");
+                    c.month = Convert.ToByte(Console.ReadLine());
 
                 }
                 catch(Exception)
                 {
 
                 }
-            } while (c.isMesValido() == false);
+            } while (c.isMonth() == false);
 
             do
             {
                 try
                 {
-                    Console.WriteLine("Escreva o ano desejado: ");
-                    c.ano = Convert.ToUInt16(Console.ReadLine());
+                    Console.WriteLine("Type the desired year: ");
+                    c.year = Convert.ToUInt16(Console.ReadLine());
                 }catch(Exception)
                 {
 
                 }
-            } while (c.isAnoValido() == false);
+            } while (c.isYear() == false);
             
             Console.WriteLine(c.GerarCalendario());
         }
